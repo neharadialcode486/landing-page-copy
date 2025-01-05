@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              blue: "#2B3F8F",
+              black: "#232323",
+              grey: "#17224D",
+            },
+            fontSize: {
+              "3xl": "28px",
+              "3xxl": "32px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!--=========================================================================== ABOUT US =====================================================================-->
+    <section
+      class="sm:py-10 bg-[url('/assets/img/about-bg.jpg')] bg-center bg_about"
+    >
+      <div class="container relative mx-auto px-5 py-20 2xl:max-w-[1280px]">
+        <div class="sm:flex gap-12">
+          <div class="w-full mb-10 sm:mb-0">
+            <div class="flex items-center gap-4 text-sm font-semibold sm:pb-3">
+              <span class="w-[50px] h-[4px] bg-blue"></span>
+              <p class="tracking-[2px]">ABOUT US</p>
+            </div>
+            <h2
+              class="text-3xxl font-bold text-black py-4 xl:pe-10 leading-[1.1em]"
+            >
+              Get it done today instead of waiting for more problems.
+            </h2>
+            <p
+              class="text-grey text-base leading-[1.5em] sm:py-2 ff_noto max-w-[560px] mb-6"
+            >
+              At DK Roofing and Building LTD, we are committed to providing
+              top-tier roofing and construction services with a focus on
+              quality, reliability, and professionalism. With years of
+              experience in the industry, our team of skilled craftsmen takes
+              pride in delivering exceptional results, whether it’s a minor
+              repair or a complete renovation.
+            </p>
+            <button
+              class="bg-blue text-white hover:text-blue py-3 px-6 text-[15px] font-medium ff_roboto leading-[15px] transitio-all duration-300 ease-in-out hover:bg-transparent border-[1px] border-blue"
+            >
+              Contact Us
+            </button>
+          </div>
+          <div class="w-full">
+            <img
+              class="sm:h-[434px] object-cover rounded-[4px]"
+              width="100%"
+              src="./assets/img/about-us.jpg"
+              alt="about"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
