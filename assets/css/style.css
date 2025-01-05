@@ -4,6 +4,8 @@
 @tailwind utilities;
 body {
   font-family: "Rubik", serif;
+  overflow-x: hidden;
+  position: relative;
 }
 .ff_noto {
   font-family: "Noto Sans", serif;
