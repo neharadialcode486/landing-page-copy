@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 .ff_noto {
   font-family: "Noto Sans", serif;
 }
@@ -43,6 +47,7 @@ body {
   filter: brightness(25%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
   background-repeat: no-repeat;
 }
+
 @media (max-width: 768px) {
   .bg_about {
     background-size: cover;

@@ -26,6 +26,204 @@
   </head>
 
   <body>
+    <nav class="relative bg-white">
+      <div
+        id="scroll-fixed"
+        class="absolute top-[117px] left-0 w-full z-10 hidden sm:block"
+      >
+        <div
+          class="bg-blue py-7 w-full text-white z-0 transition-all duration-300 ease-in-out container mx-auto card_shadow"
+        >
+          <div class="flex gap-10 items-center justify-center ff_noto">
+            <a
+              class="text-base hover:opacity-80 transition-all duration-200 ease-out"
+              href="#home"
+              >Home</a
+            >
+            <a
+              class="text-base hover:opacity-80 transition-all duration-200 ease-out"
+              href="#services"
+              >Services</a
+            >
+            <a
+              class="text-base hover:opacity-80 transition-all duration-200 ease-out"
+              href="#contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--=========================================================================== NAVBAR =====================================================================-->
+      <div
+        class="container mx-auto px-5 sm:py-4 py-2 2xl:max-w-[1280px] relative"
+      >
+        <div class="flex gap-5 justify-between items-center z-10 relative">
+          <a href="/">
+            <img
+              class="w-full sm:max-w-[130px] max-w-[80px]"
+              src="./assets/img/logo.png"
+              alt="logo"
+            />
+          </a>
+
+          <div class="sm:flex hidden lg:gap-10 gap-5 items-center relative">
+            <div
+              class="w-[1px] h-[120px] absolute lg:left-[52%] left-[61%] translate-x-[-50%] bg-[#EBEBEB]"
+            ></div>
+            <div class="flex items-center justify-center gap-3 lg:me-5">
+              <span
+                class="flex items-center justify-center lg:h-[45px] h-[35px] lg:w-[45px] w-[35px] lg:pe-1"
+              >
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28.5 0V3C37.5975 3 45 10.4025 45 19.5H48C48 8.748 39.252 0 28.5 0ZM12.975 4.509C12.1704 4.5063 11.3892 4.77889 10.761 5.2815L10.6875 5.3415L5.96996 10.2075L6.07046 10.113C4.51046 11.457 4.07846 13.581 4.74896 15.366C6.01346 19.011 9.23397 26.0595 15.5925 32.4075C21.9615 38.7855 29.0835 41.8695 32.607 43.245L32.643 43.257L32.6775 43.269C33.5597 43.5602 34.5022 43.6182 35.4135 43.4374C36.3248 43.2565 37.1738 42.843 37.878 42.237L37.923 42.1995L42.609 37.512C43.854 36.267 43.854 34.086 42.609 32.8425L36.4635 26.6895C35.2155 25.4415 33.0345 25.4415 31.7865 26.6895L28.8105 29.6655C27.7455 29.157 25.1235 27.8385 22.6305 25.4625C20.1735 23.1165 18.918 20.4075 18.4635 19.359L21.4635 16.359C22.779 15.0435 22.854 12.783 21.3375 11.574L21.474 11.7015L15.261 5.3415L15.1905 5.2815C14.5618 4.77856 13.78 4.50595 12.975 4.509ZM28.5 6V9C34.2885 9 39 13.71 39 19.5H42C42 12.057 35.9445 6 28.5 6ZM12.978 7.5C13.086 7.5 13.1915 7.54 13.2945 7.62L19.395 13.866L19.4685 13.926C19.4505 13.911 19.5255 14.055 19.3425 14.238L14.907 18.675L15.249 19.581C15.249 19.581 16.9425 24.183 20.5605 27.6345C24.1185 31.0275 28.506 32.8815 28.506 32.8815L29.4405 33.2805L33.9075 28.812C34.161 28.56 34.089 28.56 34.3425 28.812L40.488 34.965C40.743 35.22 40.743 35.136 40.488 35.3925L35.9175 39.963C35.2215 40.554 34.503 40.7085 33.6375 40.422C30.246 39.096 23.6085 36.192 17.7135 30.288C11.7765 24.3585 8.69846 17.622 7.57046 14.358L7.56446 14.34L7.55546 14.319C7.32896 13.719 7.49546 12.8475 8.02796 12.3885L8.07746 12.3435L12.6585 7.62C12.7486 7.54553 12.8611 7.5033 12.978 7.5ZM28.5 12V15C30.981 15 33 17.019 33 19.5H36C36 15.3645 32.6355 12 28.5 12Z"
+                    fill="#2B3F8F"
+                  />
+                </svg>
+              </span>
+              <div>
+                <a href="#" class="text-base text-[#17224D]">07506 861599</a>
+                <p class="text-sm text-[#17224D]">Need help? Make a Call</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-center gap-3">
+              <span class="flex items-center justify-center h-[40px] w-[40px]">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.5 20C14.5 17.4804 15.5009 15.0641 17.2825 13.2825C19.0641 11.5009 21.4804 10.5 24 10.5C26.5196 10.5 28.9359 11.5009 30.7175 13.2825C32.4991 15.0641 33.5 17.4804 33.5 20C33.5 22.5196 32.4991 24.9359 30.7175 26.7175C28.9359 28.4991 26.5196 29.5 24 29.5C21.4804 29.5 19.0641 28.4991 17.2825 26.7175C15.5009 24.9359 14.5 22.5196 14.5 20ZM24 13.5C22.2761 13.5 20.6228 14.1848 19.4038 15.4038C18.1848 16.6228 17.5 18.2761 17.5 20C17.5 21.7239 18.1848 23.3772 19.4038 24.5962C20.6228 25.8152 22.2761 26.5 24 26.5C25.7239 26.5 27.3772 25.8152 28.5962 24.5962C29.8152 23.3772 30.5 21.7239 30.5 20C30.5 18.2761 29.8152 16.6228 28.5962 15.4038C27.3772 14.1848 25.7239 13.5 24 13.5Z"
+                    fill="#2B3F8F"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.04796 17.714C7.39071 13.5679 9.27958 9.70226 12.3398 6.884C15.3999 4.06575 19.4078 2.50091 23.568 2.5H24.432C28.5922 2.50091 32.6 4.06575 35.6602 6.884C38.7203 9.70226 40.6092 13.5679 40.952 17.714C41.3332 22.3327 39.9063 26.9189 36.972 30.506L27.386 42.228C26.9757 42.7297 26.4591 43.1339 25.8735 43.4115C25.288 43.6891 24.648 43.8331 24 43.8331C23.3519 43.8331 22.712 43.6891 22.1264 43.4115C21.5408 43.1339 21.0242 42.7297 20.614 42.228L11.028 30.506C8.09362 26.9189 6.66669 22.3327 7.04796 17.714ZM23.568 5.5C20.1612 5.50144 16.8794 6.78329 14.3736 9.0913C11.8677 11.3993 10.3209 14.5648 10.04 17.96C9.72252 21.8038 10.91 25.6207 13.352 28.606L22.938 40.33C23.0668 40.4877 23.2291 40.6148 23.4132 40.7021C23.5972 40.7894 23.7983 40.8346 24.002 40.8346C24.2056 40.8346 24.4067 40.7894 24.5908 40.7021C24.7748 40.6148 24.9371 40.4877 25.066 40.33L34.652 28.606C37.0925 25.6201 38.2785 21.8033 37.96 17.96C37.679 14.5645 36.1319 11.3987 33.6256 9.09062C31.1193 6.78257 27.8371 5.50094 24.43 5.5H23.568Z"
+                    fill="#2B3F8F"
+                  />
+                </svg>
+              </span>
+              <div>
+                <a href="#" class="text-base text-[#17224D]">Location</a>
+                <p class="text-sm text-[#17224D]">MAIDSTONE</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              id="toggle"
+              class="w-[35px] h-[35px] bg-blue flex flex-col justify-center items-center rounded-[4px] cursor-pointer"
+            >
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 34H38M10 24H38M10 14H38"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <button
+              class="bg-blue hidden sm:flex gap-3 text-white hover:text-blue py-3 px-4 text-[15px] font-medium ff_roboto leading-[15px] transitio-all duration-300 ease-in-out hover:bg-transparent border-[1px] border-blue"
+            >
+              Free Estimate
+              <span
+                class="flex flex-col justify-center items-center h-[15px] w-[15px]"
+              >
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="white"
+                    d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="mobile_nav"
+      class="absolute top-[-200px] left-0 w-full bg-blue text-white transition-all duration-200 ease-in-out py-3 z-[10]"
+    >
+      <a
+        id="link_1"
+        class="text-base hover:opacity-80 transition-all duration-200 ease-out block px-5 py-2"
+        href="#home"
+        >Home</a
+      >
+      <a
+        id="link_2"
+        class="text-base hover:opacity-80 transition-all duration-200 ease-out block px-5 py-2"
+        href="#services"
+        >Services</a
+      >
+      <a
+        id="link_3"
+        class="text-base hover:opacity-80 transition-all duration-200 ease-out block px-5 py-2"
+        href="#contact"
+        >Contact</a
+      >
+    </div>
+    <!--=========================================================================== HERO =====================================================================-->
+
+    <section
+      class="hero_bg relative lg:h-screen sm:h-[700px] h-[500px]"
+      id="home"
+    >
+      <video
+        class="absolute top-0 left-0 w-full h-full z-[-1] object-cover"
+        autoplay
+        muted
+        src="./assets/img/hero.mp4"
+      ></video>
+
+      <div
+        class="container mx-auto h-full flex flex-col justify-center items-center text-center 2xl:max-w-[1280px] pt-10 lg:pt-0 px-5"
+      >
+        <div>
+          <h1
+            class="lg:text-7xl sm:text-5xl text-[38px] leading-[45px] sm:leading-[120%] text-white font-bold lg:max-w-[800px] max-w-[500px] mx-auto"
+          >
+            Roofing makes perfect sense.
+          </h1>
+          <p
+            class="text-white lg:text-[23px] sm:text-[20px] text-lg lg:max-w-[700px] max-w-[500px] mx-auto py-4 mb-4"
+          >
+            Welcome to Dk Roofing and Building LTD, your trusted partner for all
+            your roofing and building needs.
+          </p>
+          <button
+            class="bg-blue text-white hover:text-blue py-3 px-6 text-[15px] font-medium ff_roboto leading-[15px] transitio-all duration-300 ease-in-out hover:bg-transparent border-[1px] border-blue"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </section>
     <!--=========================================================================== ABOUT US =====================================================================-->
     <section
       class="sm:py-10 bg-[url('/assets/img/about-bg.jpg')] bg-center bg_about"
@@ -104,7 +302,7 @@
       </div>
     </section>
     <!--====================================================================== CARDS ==============================================================-->
-    <section>
+    <section id="services">
       <div
         class="container relative mx-auto px-6 xl:py-20 pb-10 lg:pt-8 pt-4 2xl:max-w-[1280px]"
       >
@@ -579,10 +777,10 @@
       </div>
     </section>
     <!--====================================================================== GET IN TOUCH ==============================================================-->
-    <section class="relative">
+    <section class="relative" id="contact">
       <div class="container relative mx-auto px-5 2xl:max-w-[1280px]">
         <div
-          class="w-full mb-10 sm:mb-0 sm:flex justify-center items-start sm:translate-y-[-7%]"
+          class="w-full sm:flex justify-center items-start sm:translate-y-[-7%]"
         >
           <div class="w-full max-w-[600px] relative">
             <div
@@ -767,6 +965,7 @@
         </div>
       </div>
     </section>
+    <!--====================================================================== FOOTER ==============================================================-->
     <footer class="relative">
       <div
         class="footer_bg bg-cover bg-center absolute left-0 top-0 w-full h-full"
@@ -983,6 +1182,43 @@
     <script>
       const year = document.getElementById("current_date");
       year.innerHTML = new Date().getFullYear();
+
+      window.addEventListener("scroll", () => {
+        const div = document.getElementById("scroll-fixed");
+
+        if (window.scrollY > 120) {
+          div.style.position = "fixed";
+          div.style.top = "0px";
+        } else {
+          div.style.position = "absolute";
+          div.style.top = "117px";
+        }
+      });
+      // NAVBAR
+      const toggle = document.getElementById("toggle");
+      const mobile_nav = document.getElementById("mobile_nav");
+      const link_1 = document.getElementById("link_1");
+      const link_2 = document.getElementById("link_2");
+      const link_3 = document.getElementById("link_3");
+      let isNavVisible = false;
+
+      toggle.addEventListener("click", function () {
+        if (isNavVisible) {
+          mobile_nav.style.top = "-200px";
+        } else {
+          mobile_nav.style.top = "68px";
+        }
+        isNavVisible = !isNavVisible;
+      });
+      link_1.addEventListener("click", function () {
+        mobile_nav.style.top = "-200px";
+      });
+      link_2.addEventListener("click", function () {
+        mobile_nav.style.top = "-200px";
+      });
+      link_3.addEventListener("click", function () {
+        mobile_nav.style.top = "-200px";
+      });
     </script>
   </body>
 </html>
